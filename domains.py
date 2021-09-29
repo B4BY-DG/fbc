@@ -154,7 +154,7 @@ def m():
         main()
 
 def fbc_01():
-    os.sytem("clear")
+    os.system("clear")
     banner()
     print("")
     print("")
@@ -181,7 +181,7 @@ def fbc_01():
         main()
 
 def fbc_02():
-    os.sytem("clear")
+    os.system("clear")
     banner()
     print("")
     print("")
