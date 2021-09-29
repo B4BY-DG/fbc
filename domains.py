@@ -1,7 +1,6 @@
 #!/usr/bin/env python2
 import requests,re,os
 import time
-import sys
 from os import system
 from platform import platform
 from time import sleep
