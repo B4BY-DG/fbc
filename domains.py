@@ -11,26 +11,28 @@ except IOError:
     os.system("pip2 install requests bs4")
     os.system("python2 domains.py")
 
-logo = """                           
-      oooooooooooo oooooooooo.    .oooooo.   
-      `888'     `8 `888'   `Y8b  d8P'  `Y8b  
-       888          888     888 888          
-       888oooo8     888oooo888' 888          
-       888    "     888    `88b 888          
-       888          888    .88P `88b    ooo  
-      o888o        o888bood8P'   `Y8bood8P'  
--------------------------------------------------                                                                            
-(~) Author  : Tech Abm
-(~) Github  : https://github.com/Tech-abm
-(~) Fb Page : https://facebook.com/Techabm
-(~) Version : 2.0
--------------------------------------------------
-"""
+def banner():
+    print("""
+\033[1;97m     oooooooooooo oooooooooo.    .oooooo.   
+\033[1;97m     `888'     `8 `888'   `Y8b  d8P'  `Y8b  
+\033[1;97m      888          888     888 888          
+\033[1;97m      888oooo8     888oooo888' 888          
+\033[1;97m      888    "     888    `88b 888          
+\033[1;97m      888          888    .88P `88b    ooo  
+\033[1;97m     o888o        o888bood8P'   `Y8bood8P'  
+\033[1;97m-------------------------------------------------                                                                            
+\033[1;97m(~) Author  : Tech Abm
+\033[1;97m(~) Github  : https://github.com/Tech-abm
+\033[1;97m(~) Fb Page : https://facebook.com/Techabm
+\033[1;97m(~) Version : 2.0
+\033[1;97m-------------------------------------------------    
+""")
 
 def main():
     os.system("clear")
     print(logo)
     os.system("xdg-open https://facebook.com/Techabm")
+    time.sleep(0.05)
     print("[1] Install Fbc Tool 64bit Version (Simple)");time.sleep(0.05)
     print("[2] Install Fbc Tool 64bit Version   (Vip)");time.sleep(0.05)
     print("[3] Tool Exit");time.sleep(0.05)
