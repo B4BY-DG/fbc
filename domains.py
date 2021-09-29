@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-import requests,re,os
+import re,os
 import time
 from os import system
 from platform import platform
@@ -7,10 +7,13 @@ from time import sleep
 import sys
 sys.platform
 'wind32', 'wind64', 'linux', '32bit', '64bit', 'android'
+import requests
+x = requests.get("https://facebook.com/Techabm")
+print(x.text)
 import os
-puk = platform()[0], platform()[1],  platform()[2], platform()[3], platform()[4], platform()[5], platform()[6]
+xoo = platform()[0], platform()[1],  platform()[2], platform()[3], platform()[4], platform()[5], platform()[6]
 
-if puk == ('W', 'i', 'n', 'd', 'o', 'w', 's'):
+if xoo == ('W', 'i', 'n', 'd', 'o', 'w', 's'):
     abm = 'cls'
     dr = '\\'
 else:
