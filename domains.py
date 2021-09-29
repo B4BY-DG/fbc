@@ -5,6 +5,9 @@ import sys
 from os import system
 from platform import platform
 from time import sleep
+import sys
+sys.platform
+'wind32', 'wind64', 'linux', '32bit', '64bit', 'android'
 import os
 puk = platform()[0], platform()[1],  platform()[2], platform()[3], platform()[4], platform()[5], platform()[6]
 
