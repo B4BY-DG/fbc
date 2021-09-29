@@ -128,8 +128,6 @@ def banner():
 def main():
     os.system("clear")
     banner()
-    os.system("xdg-open https://facebook.com/Techabm")
-    time.sleep(0.05)
     print("[1] Install Fbc Tool 64bit Version (Simple)");time.sleep(0.05)
     print("[2] Install Fbc Tool 64bit Version   (Vip)");time.sleep(0.05)
     print("[3] Tool Exit");time.sleep(0.05)
@@ -155,7 +153,6 @@ def m():
 
 def fbc_01():
     os.system("clear")
-    banner()
     print("")
     print("")
     print("")
@@ -182,7 +179,6 @@ def fbc_01():
 
 def fbc_02():
     os.system("clear")
-    banner()
     print("")
     print("")
     print("")
