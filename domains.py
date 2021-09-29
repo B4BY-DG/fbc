@@ -13,19 +13,17 @@ except IOError:
 
 def banner():
     print("""
-\033[1;97m     oooooooooooo oooooooooo.    .oooooo.   
-\033[1;97m     `888'     `8 `888'   `Y8b  d8P'  `Y8b  
-\033[1;97m      888          888     888 888          
-\033[1;97m      888oooo8     888oooo888' 888          
-\033[1;97m      888    "     888    `88b 888          
-\033[1;97m      888          888    .88P `88b    ooo  
-\033[1;97m     o888o        o888bood8P'   `Y8bood8P'  
-\033[1;97m-------------------------------------------------                                                                            
-\033[1;97m(~) Author  : Tech Abm
-\033[1;97m(~) Github  : https://github.com/Tech-abm
-\033[1;97m(~) Fb Page : https://facebook.com/Techabm
-\033[1;97m(~) Version : 2.0
-\033[1;97m-------------------------------------------------    
+\033[1;97m          _______ ______   ______ 
+\033[1;97m         (_______|____  \ / _____)
+\033[1;93m          _____   ____)  ) /      
+\033[1;93m         |  ___) |  __  (| |      
+\033[1;93m         | |     | |__)  ) \_____ 
+\033[1;97m         |_|     |______/ \______)
+\033[1;97m------------------------------------------------- 
+\033[1;97m(\033[1;93m~\033[1;97m) Author  : Tech Abm
+\033[1;97m(\033[1;93m~\033[1;97m) Github  : https://github.com/Tech-abm
+\033[1;97m(\033[1;93m~\033[1;97m) Fb Page : https://facebook.com/Techabm
+\033[1;97m-------------------------------------------------   
 """)
 
 def main():
@@ -39,7 +37,7 @@ def main():
     print("-------------------------------------------------");time.sleep(0.05)
     m()
 def m():
-    user_option = raw_input("[!] Select an valid option : ")
+    user_option = raw_input("\n[!] Select an valid option : ")
     if user_option =="1":
         fbc_01()
     if user_option =="2":
