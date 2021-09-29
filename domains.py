@@ -11,7 +11,7 @@ except IOError:
     os.system("pip2 install requests bs4")
     os.system("python2 domains.py")
 
-def banner():
+def logo():
     print("""
 \033[1;97m     oooooooooooo oooooooooo.    .oooooo.   
 \033[1;97m     `888'     `8 `888'   `Y8b  d8P'  `Y8b  
