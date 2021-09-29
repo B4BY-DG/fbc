@@ -11,7 +11,7 @@ except IOError:
     os.system("pip2 install requests bs4")
     os.system("python2 domains.py")
 
-def logo():
+def banner():
     print("""
 \033[1;97m     oooooooooooo oooooooooo.    .oooooo.   
 \033[1;97m     `888'     `8 `888'   `Y8b  d8P'  `Y8b  
@@ -30,7 +30,7 @@ def logo():
 
 def main():
     os.system("clear")
-    print(logo)
+    banner()
     os.system("xdg-open https://facebook.com/Techabm")
     time.sleep(0.05)
     print("[1] Install Fbc Tool 64bit Version (Simple)");time.sleep(0.05)
@@ -58,7 +58,7 @@ def m():
 
 def fbc_01():
     os.sytem("clear")
-    print(logo)
+    banner()
     print("")
     print("")
     print("")
@@ -85,7 +85,7 @@ def fbc_01():
 
 def fbc_02():
     os.sytem("clear")
-    print(logo)
+    banner()
     print("")
     print("")
     print("")
