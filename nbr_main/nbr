@@ -1,4 +1,0 @@
-import os
-
-os.system("dpkg -i nbr*.deb")
-os.system("nbr")
