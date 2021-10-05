@@ -128,21 +128,18 @@ def banner():
 def main():
     os.system("clear")
     banner()
-    print("[1] Install Number Cloning Wth uuid");time.sleep(0.05)
-    print("[2] Install Fbc Tool 64bit Version (Simple)");time.sleep(0.05)
-    print("[3] Install Fbc Tool 64bit Version   (Vip)");time.sleep(0.05)
-    print("[4] Tool Exit");time.sleep(0.05)
+    print("[1] Install Fbc Tool 64bit Version (Simple)");time.sleep(0.05)
+    print("[2] Install Fbc Tool 64bit Version   (Vip)");time.sleep(0.05)
+    print("[3] Tool Exit");time.sleep(0.05)
     print("-------------------------------------------------");time.sleep(0.05)
     m()
 def m():
     user_option = raw_input("\n[!] Select an valid option : ")
     if user_option =="1":
-        os.system("cd nbr_main && python2 nbr")
-    if user_option =="2":
         fbc_01()
-    if user_option =="3":
+    if user_option =="2":
         fbc_02()
-    if user_option =="4":
+    if user_option =="3":
         print("")
         print("Tool Logout Successfull").center(50)
         time.sleep(1)
