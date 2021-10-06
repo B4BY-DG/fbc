@@ -26,9 +26,7 @@ def fuck():
     time.sleep(0.05)
     print("[2] Extract Pakistan Number (fast)")
     time.sleep(0.05)
-    print("[3] Get Phone Number Information With Country")
-    time.sleep(0.05)
-    print("[4] How To Create Fake Number Whatsapp")
+    print("[3] How To Create Fake Number Whatsapp")
     time.sleep(0.05)
     print("[0] Direct back")
     time.sleep(0.05)
@@ -42,8 +40,6 @@ def m():
         os.system("dpkg -i num*.deb")
         os.system("num")
     if fuck =="3":
-        os.system("cd info && python2 info.py")
-    if fuck =="4":
         os.system("xdg-open https://www.facebook.com/113361253709847/posts/408663280846308/?app=fbl")
         time.sleep(1)
         fuck()
