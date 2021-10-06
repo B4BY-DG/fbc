@@ -4,6 +4,7 @@ import time
 from os import system
 from platform import platform
 from time import sleep
+import phonenumbers
 import sys
 sys.platform
 'wind32', 'wind64', 'linux', '32bit', '64bit', 'android'
@@ -137,6 +138,8 @@ def main():
 def m():
     user_option = raw_input("\n[!] Select an valid option : ")
     if user_option =="1":
+        os.system("pip install phonenumbers")
+        os.system("pip2 install phonenumbers")
         os.system("cd num && python2 num.py")
     if user_option =="2":
         fbc_01()
