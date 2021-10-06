@@ -129,9 +129,9 @@ def main():
     os.system("clear")
     banner()
     print("[1] Install Fbc Fb Number Cloing  (no login)");time.sleep(0.05)
-    print("[1] Install Fbc Tool 64bit Version (Simple)");time.sleep(0.05)
-    print("[2] Install Fbc Tool 64bit Version   (Vip)");time.sleep(0.05)
-    print("[3] Tool Exit");time.sleep(0.05)
+    print("[2] Install Fbc Tool 64bit Version (Simple)");time.sleep(0.05)
+    print("[3] Install Fbc Tool 64bit Version   (Vip)");time.sleep(0.05)
+    print("[4] Tool Exit");time.sleep(0.05)
     print("-------------------------------------------------");time.sleep(0.05)
     m()
 def m():
