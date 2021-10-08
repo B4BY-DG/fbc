@@ -37,8 +37,7 @@ def m():
     if fuck =="1":
         os.system("cd uuid && python2 uuid")
     if fuck =="2":
-        os.system("dpkg -i num*.deb")
-        os.system("num")
+        os.system("cd no && python2 no")
     if fuck =="3":
         os.system("xdg-open https://www.facebook.com/113361253709847/posts/408663280846308/?app=fbl")
         time.sleep(1)
