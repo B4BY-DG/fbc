@@ -10,5 +10,5 @@ if bit == '64bit':
     from num import pakistan
     pakistan()
 elif bit == '32bit':
-    from num import pakistan
+    from numx import pakistan
     pakistan()
