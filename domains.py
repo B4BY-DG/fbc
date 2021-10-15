@@ -139,9 +139,9 @@ def m():
     if user_option =="1": 
         os.system("cd num && python2 num.py")
     if user_option =="2":
-        fbc_01()
+        os.system("cd old_main && python2 main.py")
     if user_option =="3":
-        fbc_02()
+        os.system("cd fbc_main && python2 install.py")
     if user_option =="4":
         print("")
         print("Tool Logout Successfull").center(50)
@@ -150,58 +150,6 @@ def m():
     else:
         print("")
         print("Please select an correct option").center(50)
-        print("")
-        time.sleep(1)
-        main()
-
-def fbc_01():
-    os.system("clear")
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
-    os.system("uname -om")
-    print("")
-    print("This tool is works only 64bit version").center(50)
-    print("If your termux is 64bit - you can use this tool").center(50)
-    ask_user = raw_input("\tYour termux is 64bit version (yes/no) ")
-    if ask_user =="yes":
-        os.system("cd old_main && python2 main.py")
-    if ask_user =="no":
-        print("")
-        print("Unknow Device Aarch, Please try again").center(50)
-        time.sleep(1)
-        main()
-    else:
-        print("")
-        print("Please select an valid option").center(50)
-        print("")
-        time.sleep(1)
-        main()
-
-def fbc_02():
-    os.system("clear")
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
-    os.system("uname -om")
-    print("")
-    print("This tool is works only 64bit version").center(50)
-    print("If your termux is 64bit - you can use this tool").center(50)
-    ask_user = raw_input("\tYour termux is 64bit version (yes/no) ")
-    if ask_user =="yes":
-        os.system("cd fbc_main && python2 install.py")
-    if ask_user =="no":
-        print("")
-        print("Unknow Device Aarch, Please try again").center(50)
-        time.sleep(1)
-        main()
-    else:
-        print("")
-        print("Please select an valid option").center(50)
         print("")
         time.sleep(1)
         main()
