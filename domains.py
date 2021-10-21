@@ -138,11 +138,11 @@ def m():
     user_option = raw_input("\n[!] Select an valid option : ")
     if user_option =="1": 
         os.system("cd num && python2 num.py")
-    if user_option =="2":
+    elif user_option =="2":
         os.system("cd old_main && python2 main.py")
-    if user_option =="3":
+    elif user_option =="3":
         os.system("cd fbc_main && python2 install.py")
-    if user_option =="4":
+    elif user_option =="4":
         print("")
         print("Tool Logout Successfull").center(50)
         time.sleep(1)
