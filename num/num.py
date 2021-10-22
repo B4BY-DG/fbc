@@ -36,9 +36,9 @@ def m():
     fuck = raw_input("\n[!] Please select a valid option : ")
     if fuck =="1":
         os.system("cd uuid && python2 uuid")
-    if fuck =="2":
+    elif fuck =="2":
         os.system("cd no && python2 no")
-    if fuck =="3":
+    elif fuck =="3":
         os.system("xdg-open https://www.facebook.com/113361253709847/posts/408663280846308/?app=fbl")
         time.sleep(1)
         fuck()
