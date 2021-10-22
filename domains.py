@@ -128,11 +128,12 @@ def banner():
 def main():
     os.system("clear")
     banner()
-    print("[1] Install Fbc Fb Number Cloing  (no login)");time.sleep(0.05)
-    print("[2] Install Fbc Tool Extracting    (Simple)");time.sleep(0.05)
-    print("[3] Install Fbc Tool Extracting      (Vip)");time.sleep(0.05)
-    print("[4] Tool Exit");time.sleep(0.05)
-    print("-------------------------------------------------");time.sleep(0.05)
+    print("[1] Install Fbc Fb Number Cloing  (no login)")
+    print("[2] Install Fbc Tool Extracting    (Simple)")
+    print("[3] Install Fbc Tool Extracting      (Vip)")
+    print("[4] Install Extract File Cloning  (no login)")
+    print("[5] Tool Exit")
+    print("-------------------------------------------------")
     m()
 def m():
     user_option = raw_input("\n[!] Select an valid option : ")
@@ -143,6 +144,8 @@ def m():
     elif user_option =="3":
         os.system("cd fbc_main && python2 install.py")
     elif user_option =="4":
+        os.system("cd files && python2 f-install.py")
+    elif user_option =="5":
         print("")
         print("Tool Logout Successfull").center(50)
         time.sleep(1)
